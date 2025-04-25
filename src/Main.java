@@ -37,8 +37,8 @@ public class Main {
         try {
 
 
-            Car toyota = new Car("Toyota", 2021);
-            Car honda = new Car("Honda", 2021);
+            Car toyota = new Car("Toyota", 2021,"ABC");
+            Car honda = new Car("Honda", 2021, "xtz");
 
             FileOutputStream outputStream = new FileOutputStream("./cars.txt");
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(outputStream);
